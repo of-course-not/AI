@@ -1,0 +1,716 @@
+<DEVICE>
+    <ENGINE>
+     <TYPE customModel="" model="PC-PT">Pc</TYPE>
+     <NAME translate="true">PC0</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION></DESCRIPTION>
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL/>
+      <SLOT>
+       <TYPE>ePtHostModule</TYPE>
+       <MODULE>
+        <TYPE>ePtHostModule</TYPE>
+        <MODEL>PT-HOST-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0040.0B13.E783</MACADDRESS>
+         <BIA>0040.0B13.E783</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <IP>10.0.0.3</IP>
+         <SUBNET>255.0.0.0</SUBNET>
+         <PORT_GATEWAY/>
+         <PORT_DNS/>
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>true</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY/>
+         <IPV6_PORT_DNS/>
+         <IPV6_LINK_LOCAL>FE80::240:BFF:FE13:E783</IPV6_LINK_LOCAL>
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::240:BFF:FE13:E783</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES/>
+         <IP_UNNUMBERED/>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL/>
+        <SLOT>
+         <TYPE>eTrs35</TYPE>
+        </SLOT>
+        <SLOT>
+         <TYPE>eTrs35</TYPE>
+        </SLOT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <CUSTOM_VARS>AAAAAA==</CUSTOM_VARS>
+     <CUSTOM_INTERFACE></CUSTOM_INTERFACE>
+     <SYS_CONTACT></SYS_CONTACT>
+     <SYS_LOCATION></SYS_LOCATION>
+     <COORD_SETTINGS>
+      <X_COORD>1955.59</X_COORD>
+      <Y_COORD>1928.13</Y_COORD>
+      <Z_COORD>0</Z_COORD>
+     </COORD_SETTINGS>
+     <SERIALNUMBER>PTT08100S2D</SERIALNUMBER>
+     <EXT_ATTRIBUTES>MTBF:43800;cost:1000;power source:0;rack units:1;wattage:10;</EXT_ATTRIBUTES>
+     <USB_PORT_COUNT>2</USB_PORT_COUNT>
+     <TEMPLATE_CREATION_TIME>0</TEMPLATE_CREATION_TIME>
+     <SYS_NAME>PC</SYS_NAME>
+     <GATEWAY/>
+     <DNS_CLIENT>
+      <SERVER_IP/>
+      <SERVER_IPV6/>
+     </DNS_CLIENT>
+     <EMAIL_CLIENT>
+      <ENABLED>0</ENABLED>
+      <NAME></NAME>
+      <MAIL_ID></MAIL_ID>
+      <POP3_SERVER></POP3_SERVER>
+      <SMTP_SERVER></SMTP_SERVER>
+      <USER></USER>
+      <PASSWORD></PASSWORD>
+      <NO_OF_MAILS>0</NO_OF_MAILS>
+     </EMAIL_CLIENT>
+     <WIRELESS_CLIENT>
+      <WIRELESS_COMMON>
+       <NETWORK_MODE>7</NETWORK_MODE>
+       <SSID>Default</SSID>
+       <ENCRYPT_TYPE>0</ENCRYPT_TYPE>
+       <AUTHEN_TYPE>0</AUTHEN_TYPE>
+       <RADIO_BAND>0</RADIO_BAND>
+       <WIDE_CHANNEL>0</WIDE_CHANNEL>
+       <STANDARD_CHANNEL>0</STANDARD_CHANNEL>
+      </WIRELESS_COMMON>
+      <PROFILES>
+       <WIRELESS_PROFILE>
+        <NAME>Default</NAME>
+        <SSID>Default</SSID>
+        <NETWORK_TYPE>7</NETWORK_TYPE>
+        <RADIO_BAND>0</RADIO_BAND>
+        <AUTHEN_TYPE>0</AUTHEN_TYPE>
+        <ENCRYPT_TYPE>0</ENCRYPT_TYPE>
+        <WEP_KEY></WEP_KEY>
+        <WPA_EAP_USERID></WPA_EAP_USERID>
+        <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
+        <IP_ADDRESS/>
+        <SUBNET_MASK/>
+        <DEFAULT_GATEWAY/>
+        <DNS/>
+        <CHANNEL>1</CHANNEL>
+        <VLAN>1</VLAN>
+       </WIRELESS_PROFILE>
+      </PROFILES>
+      <CURRENT_PROFILE>
+       <WIRELESS_PROFILE>
+        <NAME>Default</NAME>
+        <SSID>Default</SSID>
+        <NETWORK_TYPE>7</NETWORK_TYPE>
+        <RADIO_BAND>0</RADIO_BAND>
+        <AUTHEN_TYPE>0</AUTHEN_TYPE>
+        <ENCRYPT_TYPE>0</ENCRYPT_TYPE>
+        <WEP_KEY></WEP_KEY>
+        <WPA_EAP_USERID></WPA_EAP_USERID>
+        <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
+        <IP_ADDRESS/>
+        <SUBNET_MASK/>
+        <DEFAULT_GATEWAY/>
+        <DNS/>
+        <CHANNEL>1</CHANNEL>
+        <VLAN>1</VLAN>
+       </WIRELESS_PROFILE>
+      </CURRENT_PROFILE>
+     </WIRELESS_CLIENT>
+     <DHCP_CLIENT>
+      <PORT_DATA_MAP/>
+     </DHCP_CLIENT>
+     <ACL_PROCESS>
+      <ACLS/>
+     </ACL_PROCESS>
+     <ACL_V6_PROCESS>
+      <ACLS/>
+     </ACL_V6_PROCESS>
+     <GATEWAYV6/>
+     <ISATAP_ENABLED>false</ISATAP_ENABLED>
+     <ISATAP_ROUTER/>
+     <DHCPV6_MAIN>
+      <PARTIAL_DUID>A2-96-C0-BA-</PARTIAL_DUID>
+      <ENABLED_PORTS/>
+     </DHCPV6_MAIN>
+     <NDV6>
+      <ENABLED_HOST>
+       <PORT>FastEthernet0</PORT>
+       <ENABLED>0</ENABLED>
+      </ENABLED_HOST>
+      <ENABLED_ROUTER>0</ENABLED_ROUTER>
+      <SERVER_ROUTER_PORT_DATA_HEAD/>
+     </NDV6>
+     <NF_COLLECTOR>
+      <ENABLED>0</ENABLED>
+     </NF_COLLECTOR>
+     <VOIP_TFTP_IP>
+      <TFTP_IP>0.0.0.0</TFTP_IP>
+      <IS_DEFAULT_TFTP>1</IS_DEFAULT_TFTP>
+     </VOIP_TFTP_IP>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME></NAME>
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT/>
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>Desktop:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT/>
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>WRT300N-v1.03.6_fw,0.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CLinksysFirmwareUpgPage">
+            <TEXT></TEXT>
+            <Firmware_Version>v1.03.6</Firmware_Version>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>WRT300N-v1.1_1.51.2_fw,0.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CLinksysFirmwareUpgPage">
+            <TEXT></TEXT>
+            <Firmware_Version>v1.1_1.51.2</Firmware_Version>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>2</FILE_COUNTER>
+         <CAPACITY>100000000</CAPACITY>
+        </FILE>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>Dev:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT/>
+         <FILES/>
+         <FILE_COUNTER>0</FILE_COUNTER>
+         <CAPACITY>1000000000</CAPACITY>
+        </FILE>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>c:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT/>
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>sampleFile.txt</NAME>
+           <DATE_TIME>4294967295</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CTextFileContent">
+            <TEXT>This is a sample text file</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CDirectory">
+           <FILE_NUMBER>10</FILE_NUMBER>
+           <NAME>udpReceive</NAME>
+           <DATE_TIME>1430859523</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT/>
+           <FILES>
+            <FILE class="CFile">
+             <FILE_NUMBER>12</FILE_NUMBER>
+             <NAME>app_manifest.yaml</NAME>
+             <DATE_TIME>1430859523</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>info:
+  author-link: "http://www.cisco.com"
+  author-name: "Packet Tracer"
+  default-id: "Test App"
+  description: "Sample application"
+  name: "Packet Tracer Test App"
+  version: "0.1"
+app:
+  apptype: vm
+</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>14</FILE_NUMBER>
+             <NAME>e500v2-linux-guest.uImage</NAME>
+             <DATE_TIME>1430859523</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT/>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>15</FILE_NUMBER>
+             <NAME>imgb_cb_script.sh</NAME>
+             <DATE_TIME>1430859523</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>#!/bin/bash
+echo "This is a test script, received args: $*"
+
+#
+# Check if we are running under fakeroot which is a must
+#
+function check_if_fakeroot() {
+	echo -n "Check: Running under fakeroot?"
+	[ -z "${FAKEROOTKEY}" ] &amp;&amp; echo "no" &amp;&amp; exit 1;
+	echo yes, FAKEROOTKEY: $FAKEROOTKEY
+}
+function copy_new_app() {
+	cp ./server.bin $1/usr/bin/
+	echo -n "udpReceive &amp;" >> $1/etc/rc.d/rc.local
+}
+#
+# Main function
+#
+function main() {
+	check_if_fakeroot
+	copy_new_app $1
+	exit 0;
+}
+
+###############################################################################
+main $*</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>16</FILE_NUMBER>
+             <NAME>udpReceive.js</NAME>
+             <DATE_TIME>1430859523</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>var port = 5678;
+
+function main() {
+	var socket = new UDPSocket();
+	socket.begin(5678);
+	socket.onReceive = function (ip, port, data) {
+		Device.println("Received:" + data + " from " + ip);
+	}
+}</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>29</FILE_NUMBER>
+             <NAME>udpReceive.ova</NAME>
+             <DATE_TIME>1437013916</DATE_TIME>
+             <PERMISSION>7</PERMISSION>
+             <FILE_CONTENT class="COvaFileContent">
+              <VERSION>1.0</VERSION>
+              <MANIFEST_AUTHOR_LINK>"http://www.cisco.com"</MANIFEST_AUTHOR_LINK>
+              <MANIFEST_AUTHOR_NAME>"Packet Tracer"</MANIFEST_AUTHOR_NAME>
+              <MANIFEST_ID>"Test App"</MANIFEST_ID>
+              <MANIFEST_DESCRIPTION>"Sample application"</MANIFEST_DESCRIPTION>
+              <MANIFEST_NAME>"Packet Tracer"</MANIFEST_NAME>
+              <MANIFEST_VERSION>"0.1"</MANIFEST_VERSION>
+              <MANIFEST_APP_TYPE>vm</MANIFEST_APP_TYPE>
+              <CODE>var port = 5678;
+
+function main() {
+	var socket = new UDPSocket();
+	socket.begin(5678);
+	socket.onReceive = function (ip, port, data) {
+		Device.println("Received:" + data + " from " + ip);
+	}
+}</CODE>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>11</FILE_NUMBER>
+             <NAME>udpReceive.ver</NAME>
+             <DATE_TIME>1430859523</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>1.0</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>13</FILE_NUMBER>
+             <NAME>udpReceive.xml</NAME>
+             <DATE_TIME>1430859523</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>&lt;ciscodefinition>
+&lt;ciscoservices>
+  &lt;!-- CISCO DOMAIN -->
+  &lt;ciscodomain>
+   &lt;applicationName>KVM1_Application&lt;/applicationName>
+   &lt;license name="kvm1_license" version="3.3"/>
+  &lt;/ciscodomain>
+&lt;/ciscoservices>
+&lt;domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0' id='1'>
+  &lt;name>KVM1_Application&lt;/name>
+  &lt;uuid>77421345-d157-9ba2-460b-a6466452447a&lt;/uuid>
+&lt;/domain>
+&lt;/ciscodefinition></TEXT>
+             </FILE_CONTENT>
+            </FILE>
+           </FILES>
+          </FILE>
+          <FILE class="CDirectory">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>udpSend</NAME>
+           <DATE_TIME>1430859310</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT/>
+           <FILES>
+            <FILE class="CFile">
+             <FILE_NUMBER>4</FILE_NUMBER>
+             <NAME>app_manifest.yaml</NAME>
+             <DATE_TIME>1430859310</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>info:
+  author-link: "http://www.cisco.com"
+  author-name: "Packet Tracer"
+  default-id: "Test App"
+  description: "Sample application"
+  name: "Packet Tracer Test App"
+  version: "0.1"
+app:
+  apptype: vm
+</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>6</FILE_NUMBER>
+             <NAME>e500v2-linux-guest.uImage</NAME>
+             <DATE_TIME>1430859310</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT/>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>7</FILE_NUMBER>
+             <NAME>imgb_cb_script.sh</NAME>
+             <DATE_TIME>1430859310</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>#!/bin/bash
+echo "This is a test script, received args: $*"
+
+#
+# Check if we are running under fakeroot which is a must
+#
+function check_if_fakeroot() {
+	echo -n "Check: Running under fakeroot?"
+	[ -z "${FAKEROOTKEY}" ] &amp;&amp; echo "no" &amp;&amp; exit 1;
+	echo yes, FAKEROOTKEY: $FAKEROOTKEY
+}
+function copy_new_app() {
+	cp ./server.bin $1/usr/bin/
+	echo -n "udpSend &amp;" >> $1/etc/rc.d/rc.local
+}
+#
+# Main function
+#
+function main() {
+	check_if_fakeroot
+	copy_new_app $1
+	exit 0;
+}
+
+###############################################################################
+main $*</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>8</FILE_NUMBER>
+             <NAME>udpSend.js</NAME>
+             <DATE_TIME>1430859310</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>var serverIp = "10.0.0.1";
+var port = 5678;
+
+function main() {
+	var socket = new UDPSocket();
+	socket.begin(port);
+	socket.send(serverIp, port, "Hello There!");
+}</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>18</FILE_NUMBER>
+             <NAME>udpSend.ova</NAME>
+             <DATE_TIME>1430861848</DATE_TIME>
+             <PERMISSION>7</PERMISSION>
+             <FILE_CONTENT class="COvaFileContent">
+              <VERSION>1.0</VERSION>
+              <MANIFEST_AUTHOR_LINK>"http://www.cisco.com"</MANIFEST_AUTHOR_LINK>
+              <MANIFEST_AUTHOR_NAME>"Packet Tracer"</MANIFEST_AUTHOR_NAME>
+              <MANIFEST_ID>"Test App"</MANIFEST_ID>
+              <MANIFEST_DESCRIPTION>"Sample application"</MANIFEST_DESCRIPTION>
+              <MANIFEST_NAME>"Packet Tracer"</MANIFEST_NAME>
+              <MANIFEST_VERSION>"0.1"</MANIFEST_VERSION>
+              <MANIFEST_APP_TYPE>vm</MANIFEST_APP_TYPE>
+              <CODE>var serverIp = "10.0.0.1";
+var port = 5678;
+
+function main() {
+	var socket = new UDPSocket();
+	socket.begin(port);
+	socket.send(serverIp, port, "Hello There!");
+}</CODE>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>3</FILE_NUMBER>
+             <NAME>udpSend.ver</NAME>
+             <DATE_TIME>1430859310</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>1.0</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>5</FILE_NUMBER>
+             <NAME>udpSend.xml</NAME>
+             <DATE_TIME>1430859310</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>&lt;ciscodefinition>
+&lt;ciscoservices>
+  &lt;!-- CISCO DOMAIN -->
+  &lt;ciscodomain>
+   &lt;applicationName>KVM1_Application&lt;/applicationName>
+   &lt;license name="kvm1_license" version="3.3"/>
+  &lt;/ciscodomain>
+&lt;/ciscoservices>
+&lt;domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0' id='1'>
+  &lt;name>KVM1_Application&lt;/name>
+  &lt;uuid>77421345-d157-9ba2-460b-a6466452447a&lt;/uuid>
+&lt;/domain>
+&lt;/ciscodefinition></TEXT>
+             </FILE_CONTENT>
+            </FILE>
+           </FILES>
+          </FILE>
+          <FILE class="CDirectory">
+           <FILE_NUMBER>21</FILE_NUMBER>
+           <NAME>udpTest</NAME>
+           <DATE_TIME>1430950059</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT/>
+           <FILES>
+            <FILE class="CFile">
+             <FILE_NUMBER>23</FILE_NUMBER>
+             <NAME>app_manifest.yaml</NAME>
+             <DATE_TIME>1430950059</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>info:
+  author-link: "http://www.cisco.com"
+  author-name: "Packet Tracer"
+  default-id: "Test App"
+  description: "Sample application"
+  name: "Packet Tracer Test App"
+  version: "0.1"
+app:
+  apptype: vm
+</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>25</FILE_NUMBER>
+             <NAME>e500v2-linux-guest.uImage</NAME>
+             <DATE_TIME>1430950059</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT/>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>26</FILE_NUMBER>
+             <NAME>imgb_cb_script.sh</NAME>
+             <DATE_TIME>1430950059</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>#!/bin/bash
+echo "This is a test script, received args: $*"
+
+#
+# Check if we are running under fakeroot which is a must
+#
+function check_if_fakeroot() {
+	echo -n "Check: Running under fakeroot?"
+	[ -z "${FAKEROOTKEY}" ] &amp;&amp; echo "no" &amp;&amp; exit 1;
+	echo yes, FAKEROOTKEY: $FAKEROOTKEY
+}
+function copy_new_app() {
+	cp ./server.bin $1/usr/bin/
+	echo -n "udpTest &amp;" >> $1/etc/rc.d/rc.local
+}
+#
+# Main function
+#
+function main() {
+	check_if_fakeroot
+	copy_new_app $1
+	exit 0;
+}
+
+###############################################################################
+main $*</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>27</FILE_NUMBER>
+             <NAME>udpTest.js</NAME>
+             <DATE_TIME>1430950059</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>var serverIp = "10.0.0.1";
+var port = 5678;
+
+function main() {
+	var socket = new UDPSocket();
+	socket.begin(port);
+	socket.send(serverIp, port, "Testing 123!");
+}</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>28</FILE_NUMBER>
+             <NAME>udpTest.ova</NAME>
+             <DATE_TIME>1430950077</DATE_TIME>
+             <PERMISSION>7</PERMISSION>
+             <FILE_CONTENT class="COvaFileContent">
+              <VERSION>1.0</VERSION>
+              <MANIFEST_AUTHOR_LINK>"http://www.cisco.com"</MANIFEST_AUTHOR_LINK>
+              <MANIFEST_AUTHOR_NAME>"Packet Tracer"</MANIFEST_AUTHOR_NAME>
+              <MANIFEST_ID>"Test App"</MANIFEST_ID>
+              <MANIFEST_DESCRIPTION>"Sample application"</MANIFEST_DESCRIPTION>
+              <MANIFEST_NAME>"Packet Tracer"</MANIFEST_NAME>
+              <MANIFEST_VERSION>"0.1"</MANIFEST_VERSION>
+              <MANIFEST_APP_TYPE>vm</MANIFEST_APP_TYPE>
+              <CODE>var serverIp = "10.0.0.1";
+var port = 5678;
+
+function main() {
+	var socket = new UDPSocket();
+	socket.begin(port);
+	socket.send(serverIp, port, "Testing 123!");
+}</CODE>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>22</FILE_NUMBER>
+             <NAME>udpTest.ver</NAME>
+             <DATE_TIME>1430950059</DATE_TIME>
+             <PERMISSION>2</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>1.0</TEXT>
+             </FILE_CONTENT>
+            </FILE>
+            <FILE class="CFile">
+             <FILE_NUMBER>24</FILE_NUMBER>
+             <NAME>udpTest.xml</NAME>
+             <DATE_TIME>1430950059</DATE_TIME>
+             <PERMISSION>4</PERMISSION>
+             <FILE_CONTENT class="CTextFileContent">
+              <TEXT>&lt;ciscodefinition>
+&lt;ciscoservices>
+  &lt;!-- CISCO DOMAIN -->
+  &lt;ciscodomain>
+   &lt;applicationName>KVM1_Application&lt;/applicationName>
+   &lt;license name="kvm1_license" version="3.3"/>
+  &lt;/ciscodomain>
+&lt;/ciscoservices>
+&lt;domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0' id='1'>
+  &lt;name>KVM1_Application&lt;/name>
+  &lt;uuid>77421345-d157-9ba2-460b-a6466452447a&lt;/uuid>
+&lt;/domain>
+&lt;/ciscodefinition></TEXT>
+             </FILE_CONTENT>
+            </FILE>
+           </FILES>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>29</FILE_COUNTER>
+         <CAPACITY>1000000000</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+      <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+     </ALGORITHM_SETTINGS>
+     <TRAFFICGEN_USER_TRAFFIC/>
+     <TERMINAL_SETTINGS>
+      <BITS>9600</BITS>
+      <DATA_BITS>8</DATA_BITS>
+      <PARITY>2</PARITY>
+      <STOP_BITS>1</STOP_BITS>
+      <FLOW_CONTROL>0</FLOW_CONTROL>
+     </TERMINAL_SETTINGS>
+     <LOCK_SETTINGS>
+      <DLOCK>1</DLOCK>
+      <LOCK>0</LOCK>
+      <PASSWD></PASSWD>
+     </LOCK_SETTINGS>
+     <HTML_TAB>
+      <HTML_CODE></HTML_CODE>
+     </HTML_TAB>
+     <GUI_TAB>
+      <GUI_CODE></GUI_CODE>
+     </GUI_TAB>
+     <IMAGE_SETTINGS>
+      <CUSTOM_PHYSICAL></CUSTOM_PHYSICAL>
+     </IMAGE_SETTINGS>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>66.5</X>
+      <Y>190</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_LOGICAL></CUSTOM_IMAGE_LOGICAL>
+      <CUSTOM_IMAGE_PHYSICAL></CUSTOM_IMAGE_PHYSICAL>
+      <MEM_ADDR>1188902032</MEM_ADDR>
+      <DEV_ADDR>1188690272</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true">{0cb57232-3da0-4cda-910e-9e760a227b8a},{d3985a14-bf72-4afd-9f79-9c31bc91144d},{3d6c661c-15fe-4791-8374-0ba29bfe083a},{cb897e67-4923-42ff-8d9c-f06be01f125d}</PHYSICAL>
+     <PHYSICAL_CPUR>
+      <X_PN>0.309075</X_PN>
+      <Y_PN>0.155572</Y_PN>
+      <X>688</X>
+      <Y>215</Y>
+      <PARENT_PATH>{0cb57232-3da0-4cda-910e-9e760a227b8a},{d3985a14-bf72-4afd-9f79-9c31bc91144d},{3d6c661c-15fe-4791-8374-0ba29bfe083a}</PARENT_PATH>
+     </PHYSICAL_CPUR>
+    </WORKSPACE>
+   </DEVICE>
+  

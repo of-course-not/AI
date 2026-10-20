@@ -1,0 +1,1240 @@
+<PACKETTRACER5>
+ <VERSION>6.1.0.0026</VERSION>
+ <NETWORK>
+  <DEVICES>
+   <DEVICE>
+    <ENGINE>
+     <TYPE customModel="" model="1841">Router</TYPE>
+     <NAME translate="true">Router0</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION></DESCRIPTION>
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL/>
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL/>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+         <MODULE>
+          <TYPE>eInterfaceCard</TYPE>
+          <MODEL>HWIC-2T</MODEL>
+          <PORT>
+           <TYPE>eSmartSerial</TYPE>
+           <POWER>true</POWER>
+           <PINS>false</PINS>
+           <BANDWIDTH>1544</BANDWIDTH>
+           <FULLDUPLEX>true</FULLDUPLEX>
+           <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+           <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+           <MACADDRESS>00E0.A3ED.5101</MACADDRESS>
+           <BIA>00E0.A3ED.5101</BIA>
+           <CLOCKRATE>64000</CLOCKRATE>
+           <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+           <DESCRIPTION/>
+           <CHANNEL>0</CHANNEL>
+           <IP>10.0.0.1</IP>
+           <SUBNET>255.0.0.0</SUBNET>
+           <PORT_GATEWAY/>
+           <PORT_DNS/>
+           <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+           <ND_SUPPRESSED>false</ND_SUPPRESSED>
+           <TIMEOUT>14400000</TIMEOUT>
+           <PC_FIREWALL>false</PC_FIREWALL>
+           <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+           <IPV6_ENABLED>false</IPV6_ENABLED>
+           <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+           <IPV6_PORT_GATEWAY/>
+           <IPV6_PORT_DNS/>
+           <IPV6_LINK_LOCAL/>
+           <IPV6_DEFAULT_LINK_LOCAL>FE80::2E0:A3FF:FEED:5101</IPV6_DEFAULT_LINK_LOCAL>
+           <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+           <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+           <IPV6_ADDRESSES/>
+          </PORT>
+          <PORT>
+           <TYPE>eSmartSerial</TYPE>
+           <POWER>false</POWER>
+           <PINS>false</PINS>
+           <BANDWIDTH>1544</BANDWIDTH>
+           <FULLDUPLEX>true</FULLDUPLEX>
+           <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+           <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+           <MACADDRESS>00E0.A3ED.5102</MACADDRESS>
+           <BIA>00E0.A3ED.5102</BIA>
+           <CLOCKRATE>2000000</CLOCKRATE>
+           <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+           <DESCRIPTION/>
+           <CHANNEL>0</CHANNEL>
+           <IP/>
+           <SUBNET/>
+           <PORT_GATEWAY/>
+           <PORT_DNS/>
+           <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+           <ND_SUPPRESSED>false</ND_SUPPRESSED>
+           <TIMEOUT>14400000</TIMEOUT>
+           <PC_FIREWALL>false</PC_FIREWALL>
+           <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+           <IPV6_ENABLED>false</IPV6_ENABLED>
+           <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+           <IPV6_PORT_GATEWAY/>
+           <IPV6_PORT_DNS/>
+           <IPV6_LINK_LOCAL/>
+           <IPV6_DEFAULT_LINK_LOCAL>FE80::2E0:A3FF:FEED:5102</IPV6_DEFAULT_LINK_LOCAL>
+           <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+           <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+           <IPV6_ADDRESSES/>
+          </PORT>
+         </MODULE>
+        </SLOT>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+        </SLOT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.3E40.4301</MACADDRESS>
+         <BIA>0060.3E40.4301</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <IP/>
+         <SUBNET/>
+         <PORT_GATEWAY/>
+         <PORT_DNS/>
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY/>
+         <IPV6_PORT_DNS/>
+         <IPV6_LINK_LOCAL/>
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::260:3EFF:FE40:4301</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES/>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.3E40.4302</MACADDRESS>
+         <BIA>0060.3E40.4302</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <IP/>
+         <SUBNET/>
+         <PORT_GATEWAY/>
+         <PORT_DNS/>
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY/>
+         <IPV6_PORT_DNS/>
+         <IPV6_LINK_LOCAL/>
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::260:3EFF:FE40:4302</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES/>
+        </PORT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <CUSTOM_VARS>AAAAAA==</CUSTOM_VARS>
+     <CUSTOM_INTERFACE></CUSTOM_INTERFACE>
+     <SYS_CONTACT></SYS_CONTACT>
+     <SYS_LOCATION></SYS_LOCATION>
+     <COORD_SETTINGS>
+      <X_COORD>1918.54</X_COORD>
+      <Y_COORD>1918.54</Y_COORD>
+      <Z_COORD>0</Z_COORD>
+     </COORD_SETTINGS>
+     <SYS_NAME>Router</SYS_NAME>
+     <RUNNINGCONFIG>
+      <LINE>!</LINE>
+      <LINE>version 12.4</LINE>
+      <LINE>no service timestamps log datetime msec</LINE>
+      <LINE>no service timestamps debug datetime msec</LINE>
+      <LINE>no service password-encryption</LINE>
+      <LINE>!</LINE>
+      <LINE>hostname Router</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>spanning-tree mode pvst</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Loopback0</LINE>
+      <LINE> ip address 1.1.1.1 255.255.255.0</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Loopback1</LINE>
+      <LINE> ip address 192.168.25.1 255.255.255.0</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Loopback2</LINE>
+      <LINE> ip address 192.168.30.1 255.255.255.0</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/0</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Serial0/0/0</LINE>
+      <LINE> ip address 10.0.0.1 255.0.0.0</LINE>
+      <LINE> clock rate 64000</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Serial0/0/1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>router ospf 1</LINE>
+      <LINE> log-adjacency-changes</LINE>
+      <LINE> network 10.0.0.0 0.255.255.255 area 0</LINE>
+      <LINE> network 192.168.0.0 0.0.255.255 area 0</LINE>
+      <LINE>!</LINE>
+      <LINE>ip classless</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>line con 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line aux 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line vty 0 4</LINE>
+      <LINE> login</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>end</LINE>
+     </RUNNINGCONFIG>
+     <STARTUPCONFIG/>
+     <CURRENT_COMMAND_SET>1841_advip_12.4</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME></NAME>
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT/>
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT/>
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>c1841-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>sigdef-category.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsCategoryFileContent">
+            <SIG_CAT/>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>sigdef-default.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsDatFileContent">
+            <ICMP_SIGNATURE>
+             <SIGNATURE>
+              <SIG_ID>2004</SIG_ID>
+              <SUB_ID>0</SUB_ID>
+              <RETIRED>0</RETIRED>
+              <ENABLED>0</ENABLED>
+              <EVENT_ACTION>0</EVENT_ACTION>
+             </SIGNATURE>
+            </ICMP_SIGNATURE>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>3</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <BOOT_SYSTEMS/>
+     <CONFIG_REGISTER>8450</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>8450</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/c1841-advipservicesk9-mz.124-15.T1.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>0006.2AE0.9BB0</BUILD_IN_ADDR>
+     <SECURITY>
+      <KEY_NAME></KEY_NAME>
+      <TEMP_KEY_NAME></TEMP_KEY_NAME>
+      <RSA_KEY></RSA_KEY>
+      <TEMP_RSA_KEY></TEMP_RSA_KEY>
+      <TIME_DATE></TIME_DATE>
+      <ENABLED>0</ENABLED>
+      <MODULUS_BITS>0</MODULUS_BITS>
+     </SECURITY>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+      <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+     </ALGORITHM_SETTINGS>
+     <SERIALNUMBER>FTX1111J1ZX</SERIALNUMBER>
+     <VLANS>
+      <VLAN number="1" name="default"/>
+      <VLAN number="1002" name="fddi-default"/>
+      <VLAN number="1003" name="token-ring-default"/>
+      <VLAN number="1004" name="fddinet-default"/>
+      <VLAN number="1005" name="trnet-default"/>
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME></DOMAIN_NAME>
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD></PASSWORD>
+      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+     </VTP>
+     <SIG_IPSPROCESS>
+      <SIGNATURE>
+       <SIG_ID>2004</SIG_ID>
+       <SUB_ID>0</SUB_ID>
+       <RETIRED>0</RETIRED>
+       <ENABLED>0</ENABLED>
+       <EVENT_ACTION>0</EVENT_ACTION>
+      </SIGNATURE>
+     </SIG_IPSPROCESS>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>67.5</X>
+      <Y>107</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL></CUSTOM_IMAGE_PHYSICAL>
+      <CUSTOM_IMAGE_LOGICAL></CUSTOM_IMAGE_LOGICAL>
+      <MEM_ADDR>328350800</MEM_ADDR>
+      <DEV_ADDR>214091584</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true">Intercity,Home City,Corporate Office,Main Wiring Closet,Rack,Router0</PHYSICAL>
+    </WORKSPACE>
+   </DEVICE>
+   <DEVICE>
+    <ENGINE>
+     <TYPE customModel="" model="1841">Router</TYPE>
+     <NAME translate="true">Router1</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION></DESCRIPTION>
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL/>
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL/>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+         <MODULE>
+          <TYPE>eInterfaceCard</TYPE>
+          <MODEL>HWIC-2T</MODEL>
+          <PORT>
+           <TYPE>eSmartSerial</TYPE>
+           <POWER>true</POWER>
+           <PINS>false</PINS>
+           <BANDWIDTH>1544</BANDWIDTH>
+           <FULLDUPLEX>true</FULLDUPLEX>
+           <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+           <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+           <MACADDRESS>0002.171E.1E01</MACADDRESS>
+           <BIA>0002.171E.1E01</BIA>
+           <CLOCKRATE>2000000</CLOCKRATE>
+           <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+           <DESCRIPTION/>
+           <CHANNEL>0</CHANNEL>
+           <IP>10.0.0.2</IP>
+           <SUBNET>255.0.0.0</SUBNET>
+           <PORT_GATEWAY/>
+           <PORT_DNS/>
+           <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+           <ND_SUPPRESSED>false</ND_SUPPRESSED>
+           <TIMEOUT>14400000</TIMEOUT>
+           <PC_FIREWALL>false</PC_FIREWALL>
+           <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+           <IPV6_ENABLED>false</IPV6_ENABLED>
+           <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+           <IPV6_PORT_GATEWAY/>
+           <IPV6_PORT_DNS/>
+           <IPV6_LINK_LOCAL/>
+           <IPV6_DEFAULT_LINK_LOCAL>FE80::202:17FF:FE1E:1E01</IPV6_DEFAULT_LINK_LOCAL>
+           <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+           <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+           <IPV6_ADDRESSES/>
+          </PORT>
+          <PORT>
+           <TYPE>eSmartSerial</TYPE>
+           <POWER>false</POWER>
+           <PINS>false</PINS>
+           <BANDWIDTH>1544</BANDWIDTH>
+           <FULLDUPLEX>true</FULLDUPLEX>
+           <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+           <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+           <MACADDRESS>0002.171E.1E02</MACADDRESS>
+           <BIA>0002.171E.1E02</BIA>
+           <CLOCKRATE>2000000</CLOCKRATE>
+           <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+           <DESCRIPTION/>
+           <CHANNEL>0</CHANNEL>
+           <IP/>
+           <SUBNET/>
+           <PORT_GATEWAY/>
+           <PORT_DNS/>
+           <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+           <ND_SUPPRESSED>false</ND_SUPPRESSED>
+           <TIMEOUT>14400000</TIMEOUT>
+           <PC_FIREWALL>false</PC_FIREWALL>
+           <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+           <IPV6_ENABLED>false</IPV6_ENABLED>
+           <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+           <IPV6_PORT_GATEWAY/>
+           <IPV6_PORT_DNS/>
+           <IPV6_LINK_LOCAL/>
+           <IPV6_DEFAULT_LINK_LOCAL>FE80::202:17FF:FE1E:1E02</IPV6_DEFAULT_LINK_LOCAL>
+           <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+           <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+           <IPV6_ADDRESSES/>
+          </PORT>
+         </MODULE>
+        </SLOT>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+        </SLOT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>00D0.97B6.C101</MACADDRESS>
+         <BIA>00D0.97B6.C101</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <IP/>
+         <SUBNET/>
+         <PORT_GATEWAY/>
+         <PORT_DNS/>
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY/>
+         <IPV6_PORT_DNS/>
+         <IPV6_LINK_LOCAL/>
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::2D0:97FF:FEB6:C101</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES/>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>00D0.97B6.C102</MACADDRESS>
+         <BIA>00D0.97B6.C102</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <IP/>
+         <SUBNET/>
+         <PORT_GATEWAY/>
+         <PORT_DNS/>
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY/>
+         <IPV6_PORT_DNS/>
+         <IPV6_LINK_LOCAL/>
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::2D0:97FF:FEB6:C102</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES/>
+        </PORT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <CUSTOM_VARS>AAAAAA==</CUSTOM_VARS>
+     <CUSTOM_INTERFACE></CUSTOM_INTERFACE>
+     <SYS_CONTACT></SYS_CONTACT>
+     <SYS_LOCATION></SYS_LOCATION>
+     <COORD_SETTINGS>
+      <X_COORD>1918.54</X_COORD>
+      <Y_COORD>1918.54</Y_COORD>
+      <Z_COORD>0</Z_COORD>
+     </COORD_SETTINGS>
+     <SYS_NAME>Router</SYS_NAME>
+     <RUNNINGCONFIG>
+      <LINE>!</LINE>
+      <LINE>version 12.4</LINE>
+      <LINE>no service timestamps log datetime msec</LINE>
+      <LINE>no service timestamps debug datetime msec</LINE>
+      <LINE>no service password-encryption</LINE>
+      <LINE>!</LINE>
+      <LINE>hostname Router</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>spanning-tree mode pvst</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Loopback0</LINE>
+      <LINE> ip address 2.2.2.2 255.0.0.0</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/0</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Serial0/0/0</LINE>
+      <LINE> ip address 10.0.0.2 255.0.0.0</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Serial0/0/1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>router ospf 1</LINE>
+      <LINE> log-adjacency-changes</LINE>
+      <LINE> network 10.0.0.0 0.255.255.255 area 0</LINE>
+      <LINE>!</LINE>
+      <LINE>ip classless</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>line con 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line aux 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line vty 0 4</LINE>
+      <LINE> login</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>end</LINE>
+     </RUNNINGCONFIG>
+     <STARTUPCONFIG/>
+     <CURRENT_COMMAND_SET>1841_advip_12.4</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME></NAME>
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT/>
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT/>
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>c1841-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>sigdef-category.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsCategoryFileContent">
+            <SIG_CAT/>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>sigdef-default.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsDatFileContent">
+            <ICMP_SIGNATURE>
+             <SIGNATURE>
+              <SIG_ID>2004</SIG_ID>
+              <SUB_ID>0</SUB_ID>
+              <RETIRED>0</RETIRED>
+              <ENABLED>0</ENABLED>
+              <EVENT_ACTION>0</EVENT_ACTION>
+             </SIGNATURE>
+            </ICMP_SIGNATURE>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>3</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <BOOT_SYSTEMS/>
+     <CONFIG_REGISTER>8450</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>8450</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/c1841-advipservicesk9-mz.124-15.T1.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>0006.2A4B.062B</BUILD_IN_ADDR>
+     <SECURITY>
+      <KEY_NAME></KEY_NAME>
+      <TEMP_KEY_NAME></TEMP_KEY_NAME>
+      <RSA_KEY></RSA_KEY>
+      <TEMP_RSA_KEY></TEMP_RSA_KEY>
+      <TIME_DATE></TIME_DATE>
+      <ENABLED>0</ENABLED>
+      <MODULUS_BITS>0</MODULUS_BITS>
+     </SECURITY>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+      <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+     </ALGORITHM_SETTINGS>
+     <SERIALNUMBER>FTX1111B5FG</SERIALNUMBER>
+     <VLANS>
+      <VLAN number="1" name="default"/>
+      <VLAN number="1002" name="fddi-default"/>
+      <VLAN number="1003" name="token-ring-default"/>
+      <VLAN number="1004" name="fddinet-default"/>
+      <VLAN number="1005" name="trnet-default"/>
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME></DOMAIN_NAME>
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD></PASSWORD>
+      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+     </VTP>
+     <SIG_IPSPROCESS>
+      <SIGNATURE>
+       <SIG_ID>2004</SIG_ID>
+       <SUB_ID>0</SUB_ID>
+       <RETIRED>0</RETIRED>
+       <ENABLED>0</ENABLED>
+       <EVENT_ACTION>0</EVENT_ACTION>
+      </SIGNATURE>
+     </SIG_IPSPROCESS>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>186.5</X>
+      <Y>57</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL></CUSTOM_IMAGE_PHYSICAL>
+      <CUSTOM_IMAGE_LOGICAL></CUSTOM_IMAGE_LOGICAL>
+      <MEM_ADDR>328343536</MEM_ADDR>
+      <DEV_ADDR>328631656</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true">Intercity,Home City,Corporate Office,Main Wiring Closet,Rack,Router1</PHYSICAL>
+    </WORKSPACE>
+   </DEVICE>
+  </DEVICES>
+  <LINKS>
+   <LINK>
+    <TYPE>eSerial</TYPE>
+    <CABLE>
+     <LENGTH>0</LENGTH>
+     <FROM>0</FROM>
+     <PORT>Serial0/0/0</PORT>
+     <TO>1</TO>
+     <PORT>Serial0/0/0</PORT>
+     <FROM_DEVICE_MEM_ADDR>214091584</FROM_DEVICE_MEM_ADDR>
+     <TO_DEVICE_MEM_ADDR>328631656</TO_DEVICE_MEM_ADDR>
+     <FROM_PORT_MEM_ADDR>328362676</FROM_PORT_MEM_ADDR>
+     <TO_PORT_MEM_ADDR>212814244</TO_PORT_MEM_ADDR>
+     <DCEDEV>0</DCEDEV>
+     <DCEPORT>Serial0/0/0</DCEPORT>
+    </CABLE>
+   </LINK>
+  </LINKS>
+  <SHAPETESTS/>
+  <DESCRIPTION translate="true"></DESCRIPTION>
+ </NETWORK>
+ <SCENARIOSET>
+  <SCENARIO>
+   <NAME translate="true">Scenario 0</NAME>
+   <DESCRIPTION translate="true"/>
+  </SCENARIO>
+ </SCENARIOSET>
+ <OPTIONS>
+  <LANGUAGE>default.ptl</LANGUAGE>
+  <ANIMATION>true</ANIMATION>
+  <SOUND>false</SOUND>
+  <TELEPHONESOUND>true</TELEPHONESOUND>
+  <DOCK>true</DOCK>
+  <LOGGING>true</LOGGING>
+  <PASS/>
+  <CONFIGPATH>./</CONFIGPATH>
+  <MODELSHOWN>false</MODELSHOWN>
+  <LINKLIGHTSSHOWN>true</LINKLIGHTSSHOWN>
+  <PORTSHOWN>true</PORTSHOWN>
+  <BACKGROUNDS>
+   <IMAGE second="../backgrounds/logical/grid_10x10.png" first="Logical"/>
+   <IMAGE second="../backgrounds/logical/grid_25x25.png" first="Logical"/>
+   <IMAGE second="../backgrounds/logical/grid_50x50.png" first="Logical"/>
+   <IMAGE second="../backgrounds/logical/grid_100x100.png" first="Logical"/>
+   <IMAGE second="../backgrounds/intercity/gGeoViewInterCity.png" first="Intercity"/>
+   <IMAGE second="../backgrounds/city/gGeoViewCity.png" first="City"/>
+   <IMAGE second="../backgrounds/city/gCiscoCampus.jpg" first="City"/>
+   <IMAGE second="../backgrounds/building/gGeoViewBuilding.png" first="Building"/>
+  </BACKGROUNDS>
+  <HIDEPHYSICAL>false</HIDEPHYSICAL>
+  <HIDECONFIG>false</HIDECONFIG>
+  <HIDECLI>false</HIDECLI>
+  <HIDEDESKTOP>false</HIDEDESKTOP>
+  <HIDEGUI>false</HIDEGUI>
+  <HIDEGUIHTML>false</HIDEGUIHTML>
+  <HIDEHTML>false</HIDEHTML>
+  <HIDEDEVICELABEL>false</HIDEDEVICELABEL>
+  <ACCESSIBLE>false</ACCESSIBLE>
+  <COLOR>
+   <IOSTEXTCOLOR iosTextColor="#000000"/>
+   <IOSBACKGROUNDCOLOR iosBackgroundColor="#ffffff"/>
+   <CONSOLETEXTCOLOR consoleTextColor="#ffffff"/>
+   <CONSOLEBACKGROUNDCOLOR consoleBackgroundColor="#000000"/>
+  </COLOR>
+  <FONT>
+   <CLIFONT family="Courier New" pointsize="8 "/>
+   <HEADERFONT family="Verdana" pointsize="8 "/>
+   <WORKSPACEFONT family="Verdana" pointsize="8 "/>
+   <ACTIVITYFONT family="Verdana" pointsize="8 "/>
+   <FILEMENUFONT family="Tahoma" pointsize="8 "/>
+   <TABSWITCH family="Verdana" pointsize="8 "/>
+   <TOOLTIP family="Courier New" pointsize="8 "/>
+   <BUTTONLABELS family="Verdana" pointsize="8 "/>
+  </FONT>
+  <BUFFER_FULL_ACTION>0</BUFFER_FULL_ACTION>
+  <MULTIUSER>
+   <NAME></NAME>
+   <ALLOWREMOTESAVING>true</ALLOWREMOTESAVING>
+   <ALWAYSLISTENATSTARTUP>false</ALWAYSLISTENATSTARTUP>
+   <SHOW_CONNECTED_PORT_NAMES>true</SHOW_CONNECTED_PORT_NAMES>
+   <MU_PEERS>
+    <PEER>localhost:38000</PEER>
+   </MU_PEERS>
+   <REMOTE_SAVING_DEPTH>-842150451</REMOTE_SAVING_DEPTH>
+   <MU_PASSWORD/>
+   <MU_ACCEPT_MODE>2</MU_ACCEPT_MODE>
+   <MU_NEW_RNET_ACCEPT_MODE>2</MU_NEW_RNET_ACCEPT_MODE>
+   <MU_ALLOW_PTMP_BROADCAST>false</MU_ALLOW_PTMP_BROADCAST>
+  </MULTIUSER>
+  <IPC_MANAGER>
+   <METAFILE_PATH>../extensions/betafeedback/betafeedback.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/IpcLog/IpcLog.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/IpcTest/IpcTest.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/ptaplayer/ptaplayer.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/telemetry/pttelemetry.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/upnp/upnp.pta</METAFILE_PATH>
+   <DISABLED_CEPS>
+    <CEP_ID>net.netacad.cisco.betafeedback</CEP_ID>
+    <CEP_ID>net.netacad.cisco.ipctest</CEP_ID>
+    <CEP_ID>net.netacad.cisco.pt.ipclog</CEP_ID>
+    <CEP_ID>net.netacad.cisco.pt.telemetry</CEP_ID>
+    <CEP_ID>net.netacad.cisco.ptseplayer</CEP_ID>
+    <CEP_ID>net.netacad.cisco.upnp</CEP_ID>
+   </DISABLED_CEPS>
+   <TRUSTED_PUBLISHERS>
+    <CERTIFICATE>-----BEGIN CERTIFICATE-----
+MIID3zCCAsegAwIBAgIJAJkCABWNDpj2MA0GCSqGSIb3DQEBBQUAMIGFMQswCQYD
+VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2Ux
+DjAMBgNVBAoMBUNpc2NvMRswGQYDVQQLDBJOZXR3b3JraW5nIEFjYWRlbXkxITAf
+BgNVBAMMGENpc2NvIE5ldHdvcmtpbmcgQWNhZGVteTAeFw0xMjA2MjYxODMzNTda
+Fw0xNTA2MjYxODMzNTdaMIGFMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZv
+cm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxDjAMBgNVBAoMBUNpc2NvMRswGQYDVQQL
+DBJOZXR3b3JraW5nIEFjYWRlbXkxITAfBgNVBAMMGENpc2NvIE5ldHdvcmtpbmcg
+QWNhZGVteTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANOcgK2pytQz
+XXSAAOW3wA+Y17EHfo/sjiAJIahb4QMfrvIlQ/5nF7llk7IdwdbzrA6KNrqiGrq+
+XlVJA1NqHU/gc86oe9GiUtX4ZkZ9m4NYEUAjmpMyKsjk+OXkcGP4w1fZYZVYCuet
+++Z2K1FOHL7l7JT/hvx9v23/tA4W5uoh5TsrkpmGUnP55EY7EOzAJjnbAaHmLFm8
+t/Njw4Pyr56ZVmGAkx+UfjDw7An3K5SkygvFlcMmr21EzG1hrJOsVbCQrpiXEQjs
+/e/Z0UsBO6xDP4noo0QjuLu2d4ufAUXq74FCgdR0sxBNU2dgcubsK4ujSZEwXCAE
+U9//AfE84sECAwEAAaNQME4wHQYDVR0OBBYEFLoFhJqmipZvKLJIeIN6s/1KVIgN
+MB8GA1UdIwQYMBaAFLoFhJqmipZvKLJIeIN6s/1KVIgNMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQEFBQADggEBAKoFyOyu8PphB3JPiEgy41Jg3IDu9Fx2P+2zKxZQ
+OcIrMcvr6qsZUFMcPtBCzldiAtqORIp8KP7KZDqpj8X7/qGvkKItt5lwUlhMnv8D
+Ei282ZneXYMZm5WUqa03yEjQrF0Xl6ycIZHKbQkxD1FWWUc0D8N910Art1ePPzda
+GyR9UsE9dbhYvjbIH788L4hlrCCzKTyBnHd6Q1fOjXO7fUPWbNq1hdrRCN0bOITa
+TViXQNmM8MZ7tlt1fXOUhTFo7Arsavn4StyTovfLaKu+5j1qOcfj13bTHRbco7IQ
+024hlUk5CoXXMYgogY1pU6sxtjAL2tKr084QJ3z4DF2LPKo=
+-----END CERTIFICATE-----
+</CERTIFICATE>
+   </TRUSTED_PUBLISHERS>
+   <UNTRUSTED_PUBLISHERS/>
+  </IPC_MANAGER>
+  <IPC_ALLOWREMOTEAPPS>false</IPC_ALLOWREMOTEAPPS>
+  <RECENT_FILES>
+   <FILE>C:\packettracer\SAVES\6.1\OSPF\ospf_area_range.pkt</FILE>
+   <FILE>C:\packettracer\SAVES\6.1\OSPF\ipv6_ospf_area_range.pkt</FILE>
+   <FILE>C:\packettracer\SAVES\6.1\OSPF\ospf_network_lo_p2p.pkt</FILE>
+  </RECENT_FILES>
+  <PORTNOTSHOWNONMOUSEOVER>false</PORTNOTSHOWNONMOUSEOVER>
+  <INTERFACE_LOCK>false,false,false,false,false,false,false</INTERFACE_LOCK>
+  <ALGORITHM_SETTINGS>
+   <USE_GLOBAL>false</USE_GLOBAL>
+   <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+   <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+   <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+   <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+   <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+   <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+  </ALGORITHM_SETTINGS>
+  <HIDEQOSSTAMP>false</HIDEQOSSTAMP>
+  <IPCLISTENSTARTUP>true</IPCLISTENSTARTUP>
+  <ENABLE_CABLE_LENGTH_EFFECTS>true</ENABLE_CABLE_LENGTH_EFFECTS>
+  <DISABLE_AUTO_CABLE>false</DISABLE_AUTO_CABLE>
+  <SHOW_DEV_TASKBAR>false</SHOW_DEV_TASKBAR>
+  <SHOW_BOTTOM_TOOLBAR>true</SHOW_BOTTOM_TOOLBAR>
+  <SHOW_RIGHT_TOOLBAR>true</SHOW_RIGHT_TOOLBAR>
+  <SHOW_MAIN_TOOLBAR>true</SHOW_MAIN_TOOLBAR>
+  <SHOW_DEV_MODEL_LABEL>false</SHOW_DEV_MODEL_LABEL>
+  <SCRIPT_MODULE_MANAGER>
+   <SCRIPT_MODULES>
+    <SCRIPT_MODULE>
+     <FILE_PATH>../extensions/ClearTerminalAgent/Clear Terminal Agent.pts</FILE_PATH>
+     <SCRIPT_MODULE_DATA>
+      <SCRIPT_DATA_STORES/>
+     </SCRIPT_MODULE_DATA>
+    </SCRIPT_MODULE>
+    <SCRIPT_MODULE>
+     <FILE_PATH>../extensions/LanMultiuserAgent/LanMultiuserAgent.pts</FILE_PATH>
+     <SCRIPT_MODULE_DATA>
+      <SCRIPT_DATA_STORES>
+       <DATA_STORE>
+        <ID>HOSTNAME</ID>
+        <CONTENT><![CDATA[]]></CONTENT>
+       </DATA_STORE>
+      </SCRIPT_DATA_STORES>
+     </SCRIPT_MODULE_DATA>
+    </SCRIPT_MODULE>
+    <SCRIPT_MODULE>
+     <FILE_PATH>../extensions/PcSoftware/PcChat.pts</FILE_PATH>
+     <SCRIPT_MODULE_DATA>
+      <SCRIPT_DATA_STORES/>
+     </SCRIPT_MODULE_DATA>
+    </SCRIPT_MODULE>
+    <SCRIPT_MODULE>
+     <FILE_PATH>../extensions/PcSoftware/PcSoftware.pts</FILE_PATH>
+     <SCRIPT_MODULE_DATA>
+      <SCRIPT_DATA_STORES>
+       <DATA_STORE>
+        <ID>software.json</ID>
+        <CONTENT><![CDATA[W3sibmFtZSI6Ik9QRVJBVElORyBTWVNURU0iLCJwYWdlIjoiIn0seyJuYW1lIjoiV0lSRUxFU1NfQklMTElORyIsInBhZ2UiOiIifSx7Im5hbWUiOiJNRURJQ0FMIiwicGFnZSI6IiJ9LHsibmFtZSI6IkJVU0lORVNTIiwicGFnZSI6IiJ9LHsibmFtZSI6Ik1BTkFHRU1FTlQiLCJwYWdlIjoiIn0seyJuYW1lIjoiR0FNRSIsInBhZ2UiOiIifSx7Im5hbWUiOiJFRFVDQVRJT05BTCIsInBhZ2UiOiIifSx7Im5hbWUiOiJORVRXT1JLIiwicGFnZSI6IiJ9LHsibmFtZSI6IlNZU1RFTSIsInBhZ2UiOiIifV0=]]></CONTENT>
+       </DATA_STORE>
+      </SCRIPT_DATA_STORES>
+     </SCRIPT_MODULE_DATA>
+    </SCRIPT_MODULE>
+    <SCRIPT_MODULE>
+     <FILE_PATH>../extensions/WanMultiuserAgent/WanMultiuserAgent.pts</FILE_PATH>
+     <SCRIPT_MODULE_DATA>
+      <SCRIPT_DATA_STORES/>
+     </SCRIPT_MODULE_DATA>
+    </SCRIPT_MODULE>
+    <SCRIPT_MODULE>
+     <FILE_PATH>../extensions/visualizations/StpTree.pts</FILE_PATH>
+     <SCRIPT_MODULE_DATA>
+      <SCRIPT_DATA_STORES/>
+     </SCRIPT_MODULE_DATA>
+    </SCRIPT_MODULE>
+   </SCRIPT_MODULES>
+   <DISABLED_SCRIPT_MODULES>
+    <SCRIPT_MODULE_ID>net.netacad.cisco.clearTerminalAgent</SCRIPT_MODULE_ID>
+    <SCRIPT_MODULE_ID>net.netacad.cisco.LanMultiuserAgent</SCRIPT_MODULE_ID>
+    <SCRIPT_MODULE_ID>net.netacad.cisco.PcChat</SCRIPT_MODULE_ID>
+    <SCRIPT_MODULE_ID>net.netacad.cisco.PcSoftware</SCRIPT_MODULE_ID>
+    <SCRIPT_MODULE_ID>net.netacad.cisco.ScriptStpTree</SCRIPT_MODULE_ID>
+    <SCRIPT_MODULE_ID>net.netacad.cisco.WanMultiuserAgent</SCRIPT_MODULE_ID>
+   </DISABLED_SCRIPT_MODULES>
+  </SCRIPT_MODULE_MANAGER>
+  <USE_CLI_DEFAULT_TAB>false</USE_CLI_DEFAULT_TAB>
+  <NEW_DEVICE_CUSTOM_INTERFACES/>
+ </OPTIONS>
+ <PHYSICALWORKSPACE>
+  <HOMERACK translate="true">Intercity,Home City,Corporate Office,Main Wiring Closet</HOMERACK>
+  <NODE>
+   <X>0</X>
+   <Y>0</Y>
+   <TYPE>0</TYPE>
+   <NAME translate="true">Intercity</NAME>
+   <SX>8.98473</SX>
+   <SY>8.98473</SY>
+   <W>20000</W>
+   <H>12416.9</H>
+   <PATH>../art/Background/gGeoViewInterCity.png</PATH>
+   <CHILDREN>
+    <NODE>
+     <X>200</X>
+     <Y>200</Y>
+     <TYPE>1</TYPE>
+     <NAME translate="true">Home City</NAME>
+     <SX>1.18694</SX>
+     <SY>1.18694</SY>
+     <W>2000</W>
+     <H>1237.98</H>
+     <PATH>../art/Background/gGeoViewCity.png</PATH>
+     <CHILDREN>
+      <NODE>
+       <X>100</X>
+       <Y>100</Y>
+       <TYPE>2</TYPE>
+       <NAME translate="true">Corporate Office</NAME>
+       <SX>0.058072</SX>
+       <SY>0.058072</SY>
+       <W>200</W>
+       <H>125.261</H>
+       <PATH>../art/Background/gGeoViewBuilding.png</PATH>
+       <CHILDREN>
+        <NODE>
+         <X>50</X>
+         <Y>50</Y>
+         <TYPE>3</TYPE>
+         <NAME translate="true">Main Wiring Closet</NAME>
+         <SX>1</SX>
+         <SY>1</SY>
+         <W>20</W>
+         <H>20</H>
+         <PATH>../art/Background/grid_100x100.png</PATH>
+         <CHILDREN>
+          <NODE>
+           <X>0</X>
+           <Y>0</Y>
+           <TYPE>4</TYPE>
+           <NAME translate="true">Rack</NAME>
+           <SX>1</SX>
+           <SY>1</SY>
+           <W>0</W>
+           <H>0</H>
+           <PATH>../art/Background/grid_100x100.png</PATH>
+           <CHILDREN>
+            <NODE>
+             <X>5</X>
+             <Y>0</Y>
+             <TYPE>6</TYPE>
+             <NAME translate="true">Router0</NAME>
+             <SX>1</SX>
+             <SY>1</SY>
+             <W>0</W>
+             <H>0</H>
+             <PATH>../art/Background/grid_100x100.png</PATH>
+             <CHILDREN/>
+             <MANUAL_SCALING>false</MANUAL_SCALING>
+             <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+             <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+             <INIT_WIDTH>0</INIT_WIDTH>
+             <INIT_HEIGHT>0</INIT_HEIGHT>
+             <INIT_SX>1</INIT_SX>
+             <INIT_SY>0</INIT_SY>
+             <BG_TILED>false</BG_TILED>
+            </NODE>
+            <NODE>
+             <X>13</X>
+             <Y>0</Y>
+             <TYPE>6</TYPE>
+             <NAME translate="true">Router1</NAME>
+             <SX>1</SX>
+             <SY>1</SY>
+             <W>0</W>
+             <H>0</H>
+             <PATH>../art/Background/grid_100x100.png</PATH>
+             <CHILDREN/>
+             <MANUAL_SCALING>false</MANUAL_SCALING>
+             <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+             <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+             <INIT_WIDTH>0</INIT_WIDTH>
+             <INIT_HEIGHT>0</INIT_HEIGHT>
+             <INIT_SX>1</INIT_SX>
+             <INIT_SY>0</INIT_SY>
+             <BG_TILED>false</BG_TILED>
+            </NODE>
+           </CHILDREN>
+           <MANUAL_SCALING>false</MANUAL_SCALING>
+           <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+           <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+           <INIT_WIDTH>0</INIT_WIDTH>
+           <INIT_HEIGHT>0</INIT_HEIGHT>
+           <INIT_SX>1</INIT_SX>
+           <INIT_SY>0</INIT_SY>
+           <BG_TILED>false</BG_TILED>
+          </NODE>
+         </CHILDREN>
+         <MANUAL_SCALING>false</MANUAL_SCALING>
+         <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+         <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+         <INIT_WIDTH>20</INIT_WIDTH>
+         <INIT_HEIGHT>20</INIT_HEIGHT>
+         <INIT_SX>1</INIT_SX>
+         <INIT_SY>0.2</INIT_SY>
+         <BG_TILED>false</BG_TILED>
+        </NODE>
+       </CHILDREN>
+       <MANUAL_SCALING>false</MANUAL_SCALING>
+       <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+       <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+       <INIT_WIDTH>200</INIT_WIDTH>
+       <INIT_HEIGHT>200</INIT_HEIGHT>
+       <INIT_SX>0.058072</INIT_SX>
+       <INIT_SY>0.0927214</INIT_SY>
+       <BG_TILED>false</BG_TILED>
+      </NODE>
+     </CHILDREN>
+     <MANUAL_SCALING>false</MANUAL_SCALING>
+     <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+     <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+     <INIT_WIDTH>2000</INIT_WIDTH>
+     <INIT_HEIGHT>2000</INIT_HEIGHT>
+     <INIT_SX>1.18694</INIT_SX>
+     <INIT_SY>1.91755</INIT_SY>
+     <BG_TILED>false</BG_TILED>
+    </NODE>
+   </CHILDREN>
+   <MANUAL_SCALING>false</MANUAL_SCALING>
+   <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+   <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+   <INIT_WIDTH>20000</INIT_WIDTH>
+   <INIT_HEIGHT>20000</INIT_HEIGHT>
+   <INIT_SX>8.98473</INIT_SX>
+   <INIT_SY>14.4718</INIT_SY>
+   <BG_TILED>false</BG_TILED>
+  </NODE>
+  <BGPATH></BGPATH>
+  <BGPATH_TILED>false</BGPATH_TILED>
+  <INTERCITY_GRID>
+   <X>2000</X>
+   <Y>1241</Y>
+   <ENABLED>false</ENABLED>
+  </INTERCITY_GRID>
+  <CITY_GRID>
+   <X>200</X>
+   <Y>123</Y>
+   <ENABLED>false</ENABLED>
+  </CITY_GRID>
+  <BUILDING_GRID>
+   <X>20</X>
+   <Y>12</Y>
+   <ENABLED>false</ENABLED>
+  </BUILDING_GRID>
+  <GRID_COLOR>#ffffff</GRID_COLOR>
+  <NOTES>
+   <NOTE uuid="{aaa60ef6-3bea-4447-9ae8-edaa018f7f6a}">
+    <X>370</X>
+    <Y>28</Y>
+    <Z>40000</Z>
+    <TEXT translate="true">show ip route ospf on Router1:
+Router#show ip route ospf 
+     192.168.30.0/32 is subnetted, 1 subnets
+O       192.168.30.1 [110/65] via 10.0.0.1, 00:01:15, Serial0/0/0
+     192.168.25.0/32 is subnetted, 1 subnets
+O       192.168.25.1 [110/65] via 10.0.0.1, 00:01:15, Serial0/0/0
+ </TEXT>
+    <NOTECLUSTERID>1-1</NOTECLUSTERID>
+   </NOTE>
+   <NOTE uuid="{24b31953-5b92-4674-8f54-a6a674693ed4}">
+    <X>344</X>
+    <Y>194</Y>
+    <Z>40002</Z>
+    <TEXT translate="true">after:
+Router#show ip route ospf          
+     192.168.30.0/32 is subnetted, 1 subnets
+O       192.168.30.1 [110/65] via 10.0.0.1, 00:08:40, Serial0/0/0
+O    192.168.25.0/24 [110/65] via 10.0.0.1, 00:00:12, Serial0/0/0</TEXT>
+    <NOTECLUSTERID>1-1</NOTECLUSTERID>
+   </NOTE>
+   <NOTE uuid="{1e7fe00f-0cc0-4af8-b580-024d16e37786}">
+    <X>46</X>
+    <Y>158</Y>
+    <Z>40000</Z>
+    <TEXT translate="true">apply "ip ospf network point-to-point" to Router0 lo1</TEXT>
+    <NOTECLUSTERID>1-1</NOTECLUSTERID>
+   </NOTE>
+  </NOTES>
+ </PHYSICALWORKSPACE>
+ <FILTERS SCCP="yes" DHCP="yes" RIP="yes" SSH="yes" CDP="yes" NTP="yes" Telnet="yes" HTTP="yes" OSPF="yes" LACP="yes" TCP="yes" ICMP="yes" ARP="yes" ISAKMP="yes" DNS="yes" SNMP="yes" HSRP="yes" VTP="yes" ICMPv6="yes" BGP="yes" HTTPS="yes" SMTP="yes" IPSec="yes" PAgP="yes" UDP="yes" H.323="yes" STP="yes" TACACS="yes" POP3="yes" FTP="yes" RADIUS="yes" TFTP="yes" RTP="yes" SYSLOG="yes" EIGRP="yes" DTP="yes">
+  <ACL_FILTERS>
+   <ACL_FILTER>
+    <NAME>ACL Filter</NAME>
+    <STATEMENTS></STATEMENTS>
+    <ENABLED>yes</ENABLED>
+   </ACL_FILTER>
+  </ACL_FILTERS>
+ </FILTERS>
+ <CLUSTERS>
+  <ROOTCLUSTER>
+   <NAME translate="true">Root</NAME>
+   <CLUSTERID>1-1</CLUSTERID>
+   <CLUSTER_BG_IMAGE></CLUSTER_BG_IMAGE>
+   <CLUSTER_ICON_IMAGE></CLUSTER_ICON_IMAGE>
+   <TILED_BG>false</TILED_BG>
+  </ROOTCLUSTER>
+ </CLUSTERS>
+ <LINES/>
+ <RECTANGLES/>
+ <ELLIPSES/>
+ <POLYGONS/>
+ <USER_PROFILE>
+  <NAME>Guest</NAME>
+  <EMAIL></EMAIL>
+  <ADDITIONAL_INFO></ADDITIONAL_INFO>
+ </USER_PROFILE>
+ <MULTIUSER>
+  <REMOTE_NETWORKS/>
+  <PORT_VISIBILITY/>
+ </MULTIUSER>
+ <GEOVIEW_GRAPHICSITEMS>
+  <ParentPhyObject>
+   <Path>Intercity</Path>
+   <GeoConnectionItems/>
+   <BreakPointItems/>
+   <GroupPointItems/>
+   <EllipticalShapes/>
+   <RectangularShapes/>
+   <LineShapes/>
+   <NoteEdits/>
+   <PolygonShapes/>
+  </ParentPhyObject>
+ </GEOVIEW_GRAPHICSITEMS>
+ <SCRIPT_MODULE>
+  <PT_APP_META>
+   <PT_VERSION/>
+   <IPC_VERSION/>
+   <NAME/>
+   <VERSION/>
+   <ID/>
+   <DESCRIPTION/>
+   <AUTHOR/>
+   <CONTACT/>
+   <EXECUTABLE_PATH/>
+   <DETACHED>false</DETACHED>
+   <KEY/>
+   <SECURITY_SETTINGS/>
+   <LOADING>ON_STARTUP</LOADING>
+   <SAVING>NEVER</SAVING>
+   <INSTANCES>1</INSTANCES>
+   <MANDATORY>false</MANDATORY>
+  </PT_APP_META>
+  <PASSWORD></PASSWORD>
+  <OPEN_IF_DENIED>false</OPEN_IF_DENIED>
+  <SCRIPTS>
+   <SCRIPT_DATA_STORES/>
+  </SCRIPTS>
+  <INTERFACES/>
+  <NEW_DEVICE_CUSTOM_INTERFACES/>
+ </SCRIPT_MODULE>
+ <CEPS/>
+</PACKETTRACER5>
